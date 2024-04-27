@@ -18,7 +18,7 @@ struct ContentView: View {
             List {
                 ForEach(firebaseManager.categories) { category in
                     HStack {
-                        NavigationLink(destination: TasksView()) {
+                        NavigationLink(destination: TasksView(category: category)) {
                             HStack() {
                                 Text(category.name)
                                     .frame(alignment: .leading)
@@ -118,4 +118,5 @@ struct ContentView: View {
 #Preview {
     ContentView()
         .environmentObject(FirebaseManager())
+        .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
 }
