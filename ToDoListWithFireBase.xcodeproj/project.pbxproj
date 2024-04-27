@@ -16,6 +16,9 @@
 		6739D2662BDD91B00092876E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6739D2652BDD91B00092876E /* FirebaseFirestore */; };
 		6739D2682BDD91B00092876E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6739D2672BDD91B00092876E /* FirebaseFirestoreSwift */; };
 		6739D26A2BDD97310092876E /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739D2692BDD97310092876E /* FirebaseManager.swift */; };
+		6739D26C2BDD98350092876E /* AddCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739D26B2BDD98350092876E /* AddCategory.swift */; };
+		6739D26E2BDD984C0092876E /* UpdateCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739D26D2BDD984C0092876E /* UpdateCategory.swift */; };
+		6739D2712BDD99CF0092876E /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739D2702BDD99CF0092876E /* TasksView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		6739D2592BDD8E360092876E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6739D2602BDD91360092876E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6739D2692BDD97310092876E /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		6739D26B2BDD98350092876E /* AddCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategory.swift; sourceTree = "<group>"; };
+		6739D26D2BDD984C0092876E /* UpdateCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCategory.swift; sourceTree = "<group>"; };
+		6739D2702BDD99CF0092876E /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,8 @@
 				6739D2692BDD97310092876E /* FirebaseManager.swift */,
 				6739D2602BDD91360092876E /* GoogleService-Info.plist */,
 				6739D2542BDD8E340092876E /* ContentView.swift */,
+				6739D2702BDD99CF0092876E /* TasksView.swift */,
+				6739D26F2BDD98540092876E /* CategoryViews */,
 				6739D2562BDD8E360092876E /* Assets.xcassets */,
 				6739D2582BDD8E360092876E /* Preview Content */,
 			);
@@ -77,6 +85,15 @@
 				6739D2592BDD8E360092876E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6739D26F2BDD98540092876E /* CategoryViews */ = {
+			isa = PBXGroup;
+			children = (
+				6739D26B2BDD98350092876E /* AddCategory.swift */,
+				6739D26D2BDD984C0092876E /* UpdateCategory.swift */,
+			);
+			path = CategoryViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,8 +176,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6739D26A2BDD97310092876E /* FirebaseManager.swift in Sources */,
+				6739D2712BDD99CF0092876E /* TasksView.swift in Sources */,
 				6739D2552BDD8E340092876E /* ContentView.swift in Sources */,
+				6739D26E2BDD984C0092876E /* UpdateCategory.swift in Sources */,
 				6739D2532BDD8E340092876E /* ToDoListWithFireBaseApp.swift in Sources */,
+				6739D26C2BDD98350092876E /* AddCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
