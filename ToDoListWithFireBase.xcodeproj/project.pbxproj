@@ -74,10 +74,13 @@
 			children = (
 				6739D2522BDD8E340092876E /* ToDoListWithFireBaseApp.swift */,
 				6739D2692BDD97310092876E /* FirebaseManager.swift */,
-				6739D2602BDD91360092876E /* GoogleService-Info.plist */,
 				6739D2542BDD8E340092876E /* ContentView.swift */,
-				6739D2722BDD9F9E0092876E /* TaskViews */,
-				6739D26F2BDD98540092876E /* CategoryViews */,
+				6739D2702BDD99CF0092876E /* TasksView.swift */,
+				6739D2732BDDA13A0092876E /* AddTask.swift */,
+				6739D2752BDDA14E0092876E /* UpdateTask.swift */,
+				6739D26B2BDD98350092876E /* AddCategory.swift */,
+				6739D26D2BDD984C0092876E /* UpdateCategory.swift */,
+				6739D2602BDD91360092876E /* GoogleService-Info.plist */,
 				6739D2562BDD8E360092876E /* Assets.xcassets */,
 				6739D2582BDD8E360092876E /* Preview Content */,
 			);
@@ -90,25 +93,6 @@
 				6739D2592BDD8E360092876E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		6739D26F2BDD98540092876E /* CategoryViews */ = {
-			isa = PBXGroup;
-			children = (
-				6739D26B2BDD98350092876E /* AddCategory.swift */,
-				6739D26D2BDD984C0092876E /* UpdateCategory.swift */,
-			);
-			path = CategoryViews;
-			sourceTree = "<group>";
-		};
-		6739D2722BDD9F9E0092876E /* TaskViews */ = {
-			isa = PBXGroup;
-			children = (
-				6739D2702BDD99CF0092876E /* TasksView.swift */,
-				6739D2732BDDA13A0092876E /* AddTask.swift */,
-				6739D2752BDDA14E0092876E /* UpdateTask.swift */,
-			);
-			path = TaskViews;
 			sourceTree = "<group>";
 		};
 		6739D2772BDDA2DA0092876E /* Frameworks */ = {
